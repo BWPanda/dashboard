@@ -1,0 +1,15 @@
+name = Dashboard
+version = 1.x-1.x
+backdrop = 1.x
+
+;file = dashboard.php
+
+regions[header] = Header
+regions[sidebar] = Sidebar
+regions[content] = Content
+regions[footer] = Footer
+
+;stylesheets[all][] = dashboard.css
+
+default region = content
+
