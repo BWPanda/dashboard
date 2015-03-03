@@ -32,7 +32,7 @@
   <?php endif; ?>
 
   <?php if ($messages): ?>
-    <section class="l-messages"><?php print $messages; ?></section>
+    <div class="l-messages"><?php print $messages; ?></div>
   <?php endif; ?>
 
   <div class="l-container">
@@ -57,7 +57,7 @@
   </div>
 
   <?php if ($content['footer']): ?>
-    <div class="l-footer"><?php print $content['footer']; ?></div>
+    <footer class="l-footer"><?php print $content['footer']; ?></footer>
   <?php endif; ?>
 </div>
 
