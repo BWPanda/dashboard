@@ -16,8 +16,8 @@
  * - $content: An array of content, each item in the array is keyed to one
  *   region of the layout. This layout supports the following sections:
  *   - $content['header']
- *   - $content['sidebar']
  *   - $content['content']
+ *   - $content['sidebar']
  *   - $content['footer']
  */
 ?>
@@ -28,7 +28,7 @@
   </div>
 
   <?php if ($content['header']): ?>
-    <header class="l-header"><?php print $content['header']; ?></header>
+    <header class="l-header" role="banner" aria-label="<?php print t('Site header'); ?>"><?php print $content['header']; ?></header>
   <?php endif; ?>
 
   <?php if ($messages): ?>
@@ -36,7 +36,7 @@
   <?php endif; ?>
 
   <div class="l-container">
-    <main class="l-content" id="main-content">
+    <main class="l-content" id="main-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
         <h1 class="title" id="page-title"><?php print $title; ?></h1>
