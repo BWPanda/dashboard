@@ -1,0 +1,25 @@
+/**
+ * @file
+ * CSS for the Dashboard layout.
+ *
+ * @see: http://alistapart.com/article/holygrail
+ */
+
+.layout--dashboard .l-container {
+  overflow: hidden;
+  padding-left: 250px;
+  *zoom: 1;
+}
+
+.layout--dashboard .l-content {
+  float: left;
+}
+
+.layout--dashboard .l-sidebar {
+  float: left;
+  margin-left: -100%;
+  position: relative;
+  right: 250px;
+  width: 250px;
+}
+
