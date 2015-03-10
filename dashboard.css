@@ -8,14 +8,11 @@
 .layout--dashboard .l-container {
   overflow: hidden;
   padding-left: 250px;
-  *zoom: 1;
 }
 
 .layout--dashboard .l-content {
   float: left;
-  overflow: hidden;
   width: 100%;
-  *zoom: 1;
 }
 
 .layout--dashboard .l-sidebar {
